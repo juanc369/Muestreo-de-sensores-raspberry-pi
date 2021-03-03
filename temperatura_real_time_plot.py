@@ -33,7 +33,7 @@ def animate(i):
     x_vals.append(next(index))
     y_vals.append(temperature)
     # Se imprime el valor de temperatura en la consola
-    print("The temperature is %s celsius" % temperature)
+    print("la temperatura es: %s celsius" % temperature)
     # Se borran los datos graficados para que al recibir un nuevo dato, este
     # no cambie el color de la gráfica en tiempo real
     plt.cla()
